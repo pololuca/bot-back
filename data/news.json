@@ -1,0 +1,26 @@
+{
+    "status": "OK",
+    "content": {
+      "source": "bot",
+      "elements": [
+        {
+          "type": "text",
+          "payload": {
+            "text": "Four suspected members of Hamas arrested in Europe over alleged terrorism plot."
+          }
+        },
+        {
+          "type": "text",
+          "payload": {
+            "text": "Trump attacks DeSantis and Haley in closing argument to Iowa voters."
+          }
+        },
+        {
+          "type": "text",
+          "payload": {
+            "text": "Voyager 1 stops communicating with Earth."
+          }
+        }
+      ]
+    }
+  }

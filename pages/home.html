@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US-MAIN">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-language">
+    <link href="/public/styles/bot.css" type="text/css" rel="stylesheet">
+    <!-- <link href="/public/styles/base.css" type="text/css" rel="stylesheet"> -->
+    <link href="/public/styles/global.css" type="text/css" rel="stylesheet">
+    <title>
+        Member
+    </title>
+    <style>
+        /* body {
+            width: 200%;
+            height: 300vh;
+        } */
+    </style>
+</head>
+
+<body id="body">
+    <input id="pageId" type="hidden" value="2051729">
+    <div class="pagewidth">
+        <div>
+            <button id="inflowHelp">OPEN BOT</button>
+        </div>
+    </div>
+</body>
+<script src="/public/js/jquery-2.2.4.js"></script>
+<script src="/public/js/botutils.js"></script>
+<script src="/public/js/bot_card.js"></script>
+<script src="/public/js/bot.js"></script>
+
+<script>
+
+    console.log(document.body.offsetWidth);
+    function getQueryParameters(str) {
+        return (str || document.location.search).replace(/(^\?)/, '').split("&").map(function (n) {
+            return n = n.split("="), this[n[0]] = n[1], this
+        }.bind({}))[0];
+    }
+</script>
+
+</html>

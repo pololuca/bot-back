@@ -1,0 +1,57 @@
+{
+    "status": "OK",
+    "content": {
+        "source": "bot",
+        "elements": [
+            {
+                "type": "text",
+                "payload": {
+                    "text": "Sure, I will help you find some information."
+                }
+            },
+            {
+                "type": "text",
+                "payload": {
+                    "text": "What do you want to know about? You can just type in a keyword or click on one of the buttons below."
+                }
+            },
+            {
+                "type": "quick_replies",
+                "payload": {
+                    "quick_replies": [
+                        {
+                            "type": "post_back",
+                            "title": "Tell me some news",
+                            "action": {
+                                "sendReply": {
+                                    "text": "Tell me some news",
+                                    "parameters": []
+                                }
+                            }
+                        },
+                        {
+                            "type": "post_back",
+                            "title": "What is the weather like?",
+                            "action": {
+                                "sendReply": {
+                                    "text": "Stop this",
+                                    "parameters": []
+                                }
+                            }
+                        },
+                        {
+                            "type": "post_back",
+                            "title": "Stop this",
+                            "action": {
+                                "sendReply": {
+                                    "text": "Stop this",
+                                    "parameters": []
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

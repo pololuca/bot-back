@@ -1,0 +1,53 @@
+{
+    "status": "OK",
+    "content": {
+        "source": "bot",
+        "elements": [
+            {
+                "type": "text",
+                "payload": {
+                    "text": "Some areas are expected to get much-needed rain."
+                }
+            },
+            {
+                "type": "text",
+                "payload": {
+                    "text": "The Thanksgiving travel rush is coming soon."
+                }
+            },
+            {
+                "type": "text",
+                "payload": {
+                    "text": "The tropics are quiet."
+                }
+            },
+            {
+                "type": "quick_replies",
+                "payload": {
+                    "quick_replies": [
+                        {
+                            "type": "post_back",
+                            "title": "Tell me some news",
+                            "action": {
+                                "sendReply": {
+                                    "text": "Tell me some news",
+                                    "parameters": []
+                                }
+                            }
+                        },
+                        {
+                            "type": "post_back",
+                            "title": "Stop this",
+                            "action": {
+                                "sendReply": {
+                                    "text": "Stop this",
+                                    "parameters": []
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

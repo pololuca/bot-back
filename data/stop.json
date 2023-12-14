@@ -1,0 +1,14 @@
+{
+    "status": "OK",
+    "content": {
+      "source": "bot",
+      "elements": [
+        {
+          "type": "text",
+          "payload": {
+            "text": "Ok! I will stop this."
+          }
+        }
+      ]
+    }
+  }

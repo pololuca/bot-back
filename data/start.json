@@ -1,0 +1,26 @@
+{
+  "status": "OK",
+  "content": {
+    "source": "bot",
+    "elements": [
+      {
+        "type": "text",
+        "payload": {
+          "text": "Hi! I'm chatBot automated assistant. I can help you resolve issues."
+        }
+      },
+      {
+        "type": "text",
+        "payload": {
+          "text": "I can guide you to the answer or info you need."
+        }
+      },
+      {
+        "type": "text",
+        "payload": {
+          "text": "Please type something to get started."
+        }
+      }
+    ]
+  }
+}
